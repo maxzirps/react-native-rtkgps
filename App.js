@@ -7,7 +7,14 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StatusBar, Button, View, StyleSheet} from 'react-native';
+import {
+  SafeAreaView,
+  StatusBar,
+  Button,
+  View,
+  StyleSheet,
+  Text,
+} from 'react-native';
 import RtkGpsBridge from './RtkGpsBridge';
 
 const App: () => React$Node = () => {
@@ -16,6 +23,13 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="light-content" />
       <SafeAreaView>
         <View style={styles.container}>
+          <Text
+            style={{
+              fontWeight: 'bold',
+              textAlign: 'center',
+            }}>
+            React-Native-RTKGPS
+          </Text>
           <Button
             style={styles.button}
             onPress={() => {

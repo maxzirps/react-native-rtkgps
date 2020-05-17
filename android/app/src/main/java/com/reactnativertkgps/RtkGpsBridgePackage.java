@@ -1,4 +1,4 @@
-package com.reacnativertkgps
+package com.reactnativertkgps;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
