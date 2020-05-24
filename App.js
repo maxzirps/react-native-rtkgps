@@ -1,56 +1,39 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+import * as React from "react";
+import { Platform, StyleSheet, Text, View } from "react-native";
+import RtkGpsBridge from "./RtkGpsBridge";
 
-import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  Button,
-  View,
-  StyleSheet,
-  Text,
-} from 'react-native';
-import RtkGpsBridge from './RtkGpsBridge';
+const instructions = Platform.select({
+  ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
+  android: `Double tap R on your keyboard to reload,\nShake or press menu button for dev menu`,
+});
 
-const App: () => React$Node = () => {
+export default function App() {
+  RtkGpsBridge.startRtk();
+
   return (
-    <>
-      <StatusBar barStyle="light-content" />
-      <SafeAreaView>
-        <View style={styles.container}>
-          <Text
-            style={{
-              fontWeight: 'bold',
-              textAlign: 'center',
-            }}>
-            React-Native-RTKGPS
-          </Text>
-          <Button
-            style={styles.button}
-            onPress={() => {
-              RtkGpsBridge.start();
-            }}
-            title="Start RTKNavi"
-            accessibilityLabel="Start the background RTK-navi-service"
-          />
-        </View>
-      </SafeAreaView>
-    </>
+    <View style={styles.container}>
+      <Text style={styles.welcome}>Welcome to React Native!</Text>
+      <Text style={styles.instructions}>To get started, edit App.js</Text>
+      <Text style={styles.instructions}>{instructions}</Text>
+    </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
-    width: '80%',
-    alignSelf: 'center',
-    marginTop: '50%',
-    height: '100%',
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF",
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: "center",
+    margin: 10,
+  },
+  instructions: {
+    textAlign: "center",
+    color: "#333333",
+    marginBottom: 5,
   },
 });
-
-export default App;

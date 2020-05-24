@@ -1,6 +1,6 @@
 package com.reactnativertkgps;
 
-import android.util.Log;
+
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
@@ -11,22 +11,23 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class RtkGpsBridge extends ReactContextBaseJavaModule {
+    private static ReactApplicationContext reactContext;
 
-  private static final String TAG = "RtkGpsBridge";
-  private static ReactApplicationContext reactContext;
+    private static final String DURATION_SHORT_KEY = "SHORT";
+    private static final String DURATION_LONG_KEY = "LONG";
 
-  RtkGpsBridge(ReactApplicationContext context) {
-    super(context);
-    reactContext = context;
-  }
+    RtkGpsBridge(ReactApplicationContext context) {
+        super(context);
+        reactContext = context;
+    }
 
-   @Override
-  public String getName() {
-    return "RtkGpsBridge";
-  }
+    @Override
+    public String getName() {
+        return "RtkGpsBridge";
+    }
 
-  @ReactMethod
-  public void start() {
-    Log.d(TAG, "START RTK");
-  }
+    @ReactMethod
+    public void startRtk() {
+        System.out.println("CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALLED");
+    }
 }

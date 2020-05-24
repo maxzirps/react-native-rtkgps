@@ -1,8 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ReactNativeRtkGps</string>
 
-
-    <!-- RTKGPS+ STUFF -->
+    <string name="app_name">RTKGPS+</string>
     <string name="app_url">http://github.com/eltorio/RtkGps</string>
     <string name="app_version_label">Version</string>
     <string name="app_legacy_info_label">Legacy info</string>
@@ -10,9 +9,9 @@
     <string name="about_changelog">Changelog</string>
     <string name="about_activity_label">About</string>
     <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help fix the issue!</string>
-    <string name="title_activity_input_stream_settings">Input stream settings</string>
-    <string name="title_activity_output_stream_settings">Output stream settings</string>
-    <string name="title_activity_log_stream_settings">Log stream settings</string>
+	<string name="title_activity_input_stream_settings">Input stream settings</string>
+	<string name="title_activity_output_stream_settings">Output stream settings</string>
+	<string name="title_activity_log_stream_settings">Log stream settings</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_start_service">Start service</string>
     <string name="menu_stop_service">Stop service</string>
@@ -47,13 +46,13 @@
     <string name="navdraw_ntripcaster_server_switch">NTRIP Caster</string>
     <string name="navdraw_item_status">Status</string>
     <string name="navdraw_item_map">Map</string>
-    <string name="navdraw_item_input_streams">Input streams</string>
+	<string name="navdraw_item_input_streams">Input streams</string>
     <string name="navdraw_item_output_streams">Output streams</string>
     <string name="navdraw_item_log_streams">Log streams</string>
     <string name="navdraw_item_processing_options">Processing options</string>
     <string name="navdraw_item_solution_options">Solution options</string>
     <string name="navdraw_item_ntripcaster_options">Caster options</string>
-
+    
     <string-array name="rtk_server_receiver">
         <item>Rover</item>
         <item>Base</item>
@@ -131,7 +130,7 @@
         <item>b:</item>
         <item>height:</item>
     </string-array>
-
+    
     <!-- PMODE_XXX positioning mode -->
     <string name="pmode_single">Single</string>
     <string name="pmode_dgps">DGPS/DGNSS</string>
@@ -169,7 +168,7 @@
     <string name="solq_ppp">PPP</string>
     <string name="solq_dr">Dead reckoning</string>
     <string name="solq_internal">Internal</string>
-
+    
     <!-- SOLF_XXX  Solution Format -->
     <string name="solf_llh">Lat/Long/Height</string>
     <string name="solf_xyz">X/Y/Z — ECEF</string>
@@ -262,7 +261,7 @@
     <string name="stapos_rinex_hdr">Rinex header</string>
     <string name="stapos_rtcm_pos">RTCM Antenna position</string>
 
-
+    
     <!-- Procession options -->
     <string name="procopt_category_processing_options_1">Processing options 1</string>
     <string name="procopt_category_solution_options">Solution options</string>
@@ -328,7 +327,7 @@
         <item>35</item>
         <item>40</item>
     </string-array>
-
+    
     <string name="procopt_ambiguity_resolution_title">GPS Integer ambiguity resolution</string>
     <string name="procopt_ambiguity_resolution_dialog_title">GPS Integer ambiguity resolution</string>
     <string-array name="procopt_ambiguity_resolution_entries">
@@ -338,7 +337,7 @@
         <item>Fix and Hold</item>
         <item>PPP-AR</item>
     </string-array>
-    <string-array name="procopt_ambiguity_resolution_values">
+        <string-array name="procopt_ambiguity_resolution_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -354,7 +353,7 @@
         <item>Auto calibrating</item>
         <item>Fix and Hold</item>
     </string-array>
-    <string-array name="procopt_glonass_ambiguity_resolution_values">
+	<string-array name="procopt_glonass_ambiguity_resolution_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -366,7 +365,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_gps_ambiguity_resolution_values">
+	<string-array name="procopt_gps_ambiguity_resolution_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -378,7 +377,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_bds_ambiguity_resolution_values">
+	<string-array name="procopt_bds_ambiguity_resolution_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -400,7 +399,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_ar_filter_values">
+	<string-array name="procopt_ar_filter_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -416,7 +415,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_rcv_stds_values">
+	<string-array name="procopt_rcv_stds_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -426,7 +425,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_init_rst_values">
+	<string-array name="procopt_init_rst_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -436,7 +435,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_out_single_values">
+	<string-array name="procopt_out_single_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -446,7 +445,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_sync_sol_values">
+	<string-array name="procopt_sync_sol_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -456,7 +455,7 @@
         <item>Off</item>
         <item>On</item>
     </string-array>
-    <string-array name="procopt_freq_opt_values">
+	<string-array name="procopt_freq_opt_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -523,8 +522,8 @@
 
     <!-- PROCESSING CYCLE -->
     <string name="procopt_processing_cycle_title">Processing cycle (s)</string>
-    <string name="procopt_processing_cycle_summary">Set the cycle for processing mock positions and GPX trace</string>
-    <string-array name="procopt_processing_cycle_entries">
+	<string name="procopt_processing_cycle_summary">Set the cycle for processing mock positions and GPX trace</string>
+	<string-array name="procopt_processing_cycle_entries">
         <item>1</item>
         <item>2</item>
         <item>5</item>
@@ -533,11 +532,11 @@
         <item>30</item>
         <item>60</item>
     </string-array>
-
+    
     <!-- Output header -->
     <string name="solopt_output_header_title">Output header</string>
     <string name="solopt_output_header_summary">Set whether the header is output or not</string>
-
+    
     <!-- Output mocklocation -->
     <string name="solopt_output_mocklocation_title">Output GPS mock locations</string>
     <string name="solopt_output_mocklocation_summary">Set if solution is sent to other applications like the internal GPS</string>
@@ -554,7 +553,7 @@
     <string name="earth_tide_correction_off">OFF</string>
     <string name="earth_tide_correction_solid">Solid</string>
     <string name="earth_tide_correction_solid_otl_pole">Solid, ocean, pole</string>
-
+    
     <string-array name="solopt_lat_lon_format_entries">
         <item>ddd.dddddddd : Degree</item>
         <item>ddd mm ss.sss : Degree minute second</item>
@@ -628,9 +627,9 @@
     <string name="solopt_output_customproj4_default">+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</string>
     <string name="solopt_output_testmode_title">Enable test mode</string>
     <string name="solopt_output_testmode_summary">If this is enabled and Rover/Base/Correction are off, it runs in a special test mode with positions coming from internal GPS. Obviously no algorithm from RTKLIB can work</string>
-
+    
     <!-- Input streams settings -->
-    <string name="streams_settings_type_title">Type</string>
+	<string name="streams_settings_type_title">Type</string>
     <string name="streams_settings_format_title">Format</string>
     <string name="streams_settings_button_title">Stream settings&#8230;</string>
     <string name="streams_settings_commands_at_startup_shutdown_title">Commands at startup/shutdown&#8230;</string>
@@ -645,11 +644,11 @@
     <string name="input_streams_settings_receiver_option_title">Receiver option</string>
     <string name="input_streams_settings_transmit_gpgga_to_base_title">Transmit GPGGA to Base Station</string>
     <string name="input_streams_settings_transmit_gpgga_lat_title">Latitude</string>
-    <string name="input_streams_settings_transmit_gpgga_lon_title">Longitude</string>
+    <string name="input_streams_settings_transmit_gpgga_lon_title">Longitude</string> 
     <string name="input_streams_setting_antenna_title">Antenna</string>
     <string name="input_streams_setting_antenna_summary">Antenna official IGS name (for phase center variation)</string>
-
-    <string-array name="input_streams_settings_transmit_gpgga_entries">
+    
+	<string-array name="input_streams_settings_transmit_gpgga_entries">
         <item>OFF</item>
         <item>Latitude/Longitude</item>
         <item>Single solution</item>
@@ -659,8 +658,8 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-
-
+    
+    
     <!-- Output stream settings -->
     <string name="output_streams_settings_enable_solution1_title">Enable Solution 1</string>
     <string name="output_streams_settings_enable_solution2_title">Enable Solution 2</string>
@@ -669,7 +668,7 @@
     <string name="output_streams_settings_solution2_tab_title">Solution 2</string>
     <string name="output_streams_settings_gpxtrace_tab_title">GPX Trace</string>
 
-
+    
     <!-- Log stream settings -->
     <string name="log_streams_settings_enable_rover_title">Log rover</string>
     <string name="log_streams_settings_enable_base_title">Log base </string>
@@ -677,7 +676,7 @@
     <string name="log_stream_settings_rover_tab_title">Log Rover</string>
     <string name="log_stream_settings_base_tab_title">Log Base</string>
     <string name="log_stream_settings_correction_tab_title">Log Correction</string>
-
+    
     <!-- NTRIP client stream preferences -->
     <string name="ntrip_client_dialog_title">NTRIP client settings</string>
     <string name="ntrip_client_host_title">Host</string>
@@ -693,7 +692,7 @@
     <string name="file_zipbeforesync_title">Zip before syncing</string>
     <string name="file_zipbeforesync_summary">Compress this file before sending to Dropbox</string>
     <!-- TCP client stream preferences -->
-    <string name="tcp_client_dialog_title">TCP client settings</string>
+	<string name="tcp_client_dialog_title">TCP client settings</string>
     <string name="tcp_client_host_title">Host</string>
     <string name="tcp_client_port_title">Port</string>
 
@@ -704,7 +703,7 @@
 
     <!-- File stream preferences -->
     <string name="file_dialog_title">File settings</string>
-
+    
     <!-- Bluetooth stream preferences -->
     <string name="bluetooth_dialog_title">Bluetooth receiver settings</string>
     <string name="bluetooth_device_not_selected">device not selected</string>
@@ -712,7 +711,7 @@
     <string name="bluetooth_device_address_title">Bluetooth device</string>
     <string name="bluetooth_system_settings_title">Bluetooth system settings</string>
     <string name="bluetooth_system_settings_summary">Display system Bluetooth settings screen</string>
-
+    
     <string name="bluetooth_connected">Bluetooth connected</string>
     <string name="bluetooth_connection_lost">Bluetooth connection lost</string>
 
@@ -745,98 +744,98 @@
     </string-array>
 
     <!-- USB stream preferences -->
-
-    <string name="usb_connected">USB connected</string>
+    
+	<string name="usb_connected">USB connected</string>
     <string name="usb_connection_lost">USB connection lost</string>
-
+    
     <string name="usb_dialog_title">USB receiver settings</string>
     <string name="usb_device_baudrate_title">Baudrate</string>
-    <string-array name="usb_device_baudrate_entries">
-        <item>300</item>
-        <item>1200</item>
-        <item>1800</item>
-        <item>2400</item>
-        <item>3600</item>
-        <item>4800</item>
-        <item>7200</item>
-        <item>9600</item>
-        <item>14400</item>
-        <item>19200</item>
-        <item>28800</item>
-        <item>38400</item>
-        <item>57600</item>
-        <item>115200</item>
-        <item>230400</item>
+	<string-array name="usb_device_baudrate_entries">
+			<item>300</item>
+            <item>1200</item>
+            <item>1800</item>
+            <item>2400</item>
+            <item>3600</item>
+            <item>4800</item>
+            <item>7200</item>
+            <item>9600</item>
+            <item>14400</item>
+            <item>19200</item>
+            <item>28800</item>
+            <item>38400</item>
+            <item>57600</item>
+            <item>115200</item>
+            <item>230400</item>
     </string-array>
-    <string name="usb_device_data_bits_title">Data bits</string>
-    <string-array name="usb_device_data_bits_entries">
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-    </string-array>
-    <string name="usb_device_parity_title">Parity</string>
-    <string-array name="usb_device_parity_entries">
-        <item>None</item>
-        <item>Odd</item>
-        <item>Even</item>
-        <item>Mark</item>
-        <item>Space</item>
-    </string-array>
-    <string-array name="usb_device_parity_values">
-        <item>N</item>
-        <item>O</item>
-        <item>E</item>
-        <item>M</item>
-        <item>S</item>
-    </string-array>
-    <string name="usb_device_stop_bits_title">Stop bits</string>
-    <string-array name="usb_device_stop_bits_entries">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Startup/shutdown commands preference widget -->
-    <string name="send_commands_at_startup">Send commands at startup</string>
-    <string name="send_commands_at_shutdown">Send commands at shutdown</string>
-    <string name="commands_at_startup">Commands at startup</string>
-    <string name="commands_at_shutdown">Commands at shutdown</string>
-    <string name="load_startup_shutdown_commands">Load</string>
-    <string name="load_startup_shutdown_dialog_title">Select file</string>
-
-    <!-- Rover/base position -->
-    <string name="station_position_format_llh">Lat/Lon/Height (deg/m)</string>
-    <string name="station_position_format_llh_dms">Lat/Lon/Height (dms/m)</string>
-    <string name="station_position_format_ecef">X/Y/Z — ECEF</string>
-    <string name="station_position_for_fixed_mode">For fixed mode</string>
-    <string name="station_position_for_relative_mode">For relative mode</string>
-
-    <!-- StatusView -->
-    <string name="status_view_snr">SNR Rover/Base</string>
-    <string name="status_view_snr_l1">SNR Rover/Base L1</string>
-    <string name="status_view_snr_l2">SNR Rover/Base L2</string>
-    <string name="status_view_snr_l5">SNR Rover/Base L5</string>
-    <string name="status_view_skyplot_rover_l1">Skyplot Rover L1</string>
-    <string name="status_view_skyplot_rover_l2">Skyplot Rover L2</string>
-    <string name="status_view_skyplot_rover_l5">Skyplot Rover L5</string>
-    <string name="status_view_skyplot_base_l1">Skyplot Base L1</string>
-    <string name="status_view_skyplot_base_l2">Skyplot Base L2</string>
-    <string name="status_view_skyplot_base_l5">Skyplot Base L5</string>
-    <string name="status_view_baseline">Baseline</string>
-    <string name="tools_download_and_inject_igu">Download and inject IGS Ultra rapid ephemeris (500kB)</string>
-    <string name="tools_inject">Inject</string>
-    <string name="tools_get_inject">Get+Inject</string>
-    <string name="tools_download_raf09_geoid">Install IGN RAF09 Geoid (2MB)</string>
-    <string name="tools_install">Install</string>
-    <string name="tools_download_egm2008_m25_geoid">Install EGM 2008 2.5\' Geoid (135MB)</string>
-    <string name="tools_download_egm2008_m10_geoid">Install EGM 2008 1.0\' Geoid (825MB)</string>
-    <string name="tools_download_egm96_m150_geoid">Install EGM 96 15\' Geoid (2MB)</string>
-
-    <string name="changelog_full_title">Change Log</string>
+	<string name="usb_device_data_bits_title">Data bits</string>
+	<string-array name="usb_device_data_bits_entries">
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+	<string name="usb_device_parity_title">Parity</string>
+	<string-array name="usb_device_parity_entries">
+	    <item>None</item>
+	    <item>Odd</item>
+	    <item>Even</item>
+	    <item>Mark</item>
+	    <item>Space</item>
+	</string-array>
+	<string-array name="usb_device_parity_values">
+	    <item>N</item>
+	    <item>O</item>
+	    <item>E</item>
+	    <item>M</item>
+	    <item>S</item>
+	</string-array>
+	<string name="usb_device_stop_bits_title">Stop bits</string>
+	<string-array name="usb_device_stop_bits_entries">
+	    <item>1</item>
+	    <item>2</item>
+	</string-array>
+    
+	<!-- Startup/shutdown commands preference widget -->
+	<string name="send_commands_at_startup">Send commands at startup</string>
+	<string name="send_commands_at_shutdown">Send commands at shutdown</string>
+	<string name="commands_at_startup">Commands at startup</string>
+	<string name="commands_at_shutdown">Commands at shutdown</string>
+	<string name="load_startup_shutdown_commands">Load</string>
+	<string name="load_startup_shutdown_dialog_title">Select file</string>
+	
+	<!-- Rover/base position -->
+	<string name="station_position_format_llh">Lat/Lon/Height (deg/m)</string>
+	<string name="station_position_format_llh_dms">Lat/Lon/Height (dms/m)</string>
+	<string name="station_position_format_ecef">X/Y/Z — ECEF</string>
+	<string name="station_position_for_fixed_mode">For fixed mode</string>
+	<string name="station_position_for_relative_mode">For relative mode</string>
+	
+	<!-- StatusView -->
+	<string name="status_view_snr">SNR Rover/Base</string>
+	<string name="status_view_snr_l1">SNR Rover/Base L1</string>
+	<string name="status_view_snr_l2">SNR Rover/Base L2</string>
+	<string name="status_view_snr_l5">SNR Rover/Base L5</string>
+	<string name="status_view_skyplot_rover_l1">Skyplot Rover L1</string>
+	<string name="status_view_skyplot_rover_l2">Skyplot Rover L2</string>
+	<string name="status_view_skyplot_rover_l5">Skyplot Rover L5</string>	
+	<string name="status_view_skyplot_base_l1">Skyplot Base L1</string>
+	<string name="status_view_skyplot_base_l2">Skyplot Base L2</string>
+	<string name="status_view_skyplot_base_l5">Skyplot Base L5</string>
+	<string name="status_view_baseline">Baseline</string>
+	<string name="tools_download_and_inject_igu">Download and inject IGS Ultra rapid ephemeris (500kB)</string>
+	<string name="tools_inject">Inject</string>
+	<string name="tools_get_inject">Get+Inject</string>
+	<string name="tools_download_raf09_geoid">Install IGN RAF09 Geoid (2MB)</string>
+	<string name="tools_install">Install</string>
+	<string name="tools_download_egm2008_m25_geoid">Install EGM 2008 2.5\' Geoid (135MB)</string>
+	<string name="tools_download_egm2008_m10_geoid">Install EGM 2008 1.0\' Geoid (825MB)</string>
+	<string name="tools_download_egm96_m150_geoid">Install EGM 96 15\' Geoid (2MB)</string>
+	
+	<string name="changelog_full_title">Change Log</string>
     <string name="changelog_title">What\'s New</string>
     <string name="changelog_ok_button">OK</string>
     <string name="changelog_show_full">more…</string>
-
+    
     <string name="ntripcaster_options_enabled_summary">Enable experimental NTRIP Caster</string>
     <string name="ntripcaster_options_enabled_title">NTRIP Caster</string>
     <string name="ntripcaster_options_brutal_ending_summary">Ending NTRIP Caster will also shutown RTKGPS+, it is safer for being sure all connections are closed.</string>
@@ -850,5 +849,4 @@
     <string name="point_name_input_title">Point name</string>
     <string name="button_ok">OK</string>
     <string name="button_cancel">Cancel</string>
-
 </resources>

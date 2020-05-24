@@ -1,4 +1,17 @@
 {
-  "name": "ReactNativeRtkGps",
-  "displayName": "ReactNativeRtkGps"
+  "name": "react-native-rtkgps",
+  "displayName": "react-native-rtkgps",
+  "expo": {
+    "name": "react-native-rtkgps",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
 }
